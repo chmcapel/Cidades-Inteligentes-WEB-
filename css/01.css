@@ -1,0 +1,161 @@
+@font-face {
+    font-family: ComicSans;
+    src: url(./assets/fonts/Comic_Neue/ComicNeue-Regular.ttf) }
+    @font-face {
+        font-family: ComicSans;
+        src: url(./assets/fonts/Comic_Neue/ComicNeue-Bold.ttf);
+        font-weight: bold }
+    @font-face {
+        font-family: ComicSans;
+        src: url(./assets/fonts/Comic_Neue/ComicNeue-Italic.ttf);
+        font-style: italic }
+        @font-face {
+            font-family: ComicSans;
+            src: url(./assets/fonts/Comic_Neue/ComicNeue-BoldItalic.ttf);
+            font-style: italic;
+            font-weight: bold }
+
+@font-face {
+    font-family: Jost;
+    src: url(./assets/fonts/Jost/Jost-Regular.ttf) }
+    @font-face {
+        font-family: Jost;
+        src: url(./assets/fonts/Jost/Jost-Bold.ttf);
+        font-weight: bold}
+    @font-face {
+        font-family: Jost;
+        src: url(./assets/fonts/Jost/Jost-Italic.ttf);
+        font-style: italic}
+        @font-face {
+            font-family: Jost;
+            src: url(./assets/fonts/Jost/Jost-BoldItalic.ttf);
+            font-weight: bold;
+            font-style: italic}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./assets/fonts/Raleway/Raleway-Regular.ttf) }
+    @font-face {
+        font-family: Raleway;
+        src: url(./assets/fonts/Raleway/Raleway-Bold.ttf);
+        font-weight: bold}
+    @font-face {
+        font-family: Raleway;
+        src: url(./assets/fonts/Raleway/Raleway-Italic.ttf);
+        font-style: italic}
+        @font-face {
+            font-family: Raleway;
+            src: url(./assets/fonts/Raleway/Raleway-BoldItalic.ttf);
+            font-weight: bold;
+            font-style: italic}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./assets/fonts/Ubuntu/Ubuntu-Regular.ttf) }
+    @font-face {
+        font-family: Ubuntu;
+        src: url(./assets/fonts/Ubuntu/Ubuntu-Bold.ttf);
+        font-weight: bold}
+    @font-face {
+        font-family: Ubuntu;
+        src: url(./assets/fonts/Ubuntu/Ubuntu-Italic.ttf);
+        font-style: italic}
+        @font-face {
+            font-family: Ubuntu;
+            src: url(./assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+            font-weight: bold;
+            font-style: italic}
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Raleway','ComicSans'}
+p,li {font-family: 'Jost','ComicSans'}
+
+body {
+    background-color: #3588af;
+}
+
+.container {
+    position: relative;
+    height: 98vh;
+    width: 98vw;
+}
+
+.DivPrincipal {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button { 
+    padding: 9px 25px;
+    background-color: #91abe4;
+    border: none; 
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    color: black;
+}
+
+button:hover { 
+    background-color: #0E405F;
+}
+
+.h1Title {
+    position: relative;
+    margin: 0 0 10% 0;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    white-space: nowrap;
+}
+
+.NomeDaCidade { 
+    position: relative;
+    color: black;
+    text-align: left;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.Descrição_Cidade {
+    position: relative;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.legendafotocidade {
+    font-size: 17px;
+    line-height: 1.2em;
+    margin: 0;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.DivFooter {
+    position: relative;
+    margin: 10% 0 0 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.MenuFooter {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    background-color: #0E405F;
+}
+
+.MenuFooter:hover {
+    font-weight: bold;
+    color: #0E405F;
+    background-color: white;
+}
